@@ -20,12 +20,14 @@ const overlay = document.querySelector(".overlay");
 const soplido = document.getElementById("soplido");
 const cancion = document.getElementById("cancion");
 const llama = document.querySelector(".llama");
+const velaOverlay = document.querySelector(".vela-overlay");
 
 llama.addEventListener("click", () => {
   soplido.currentTime = 0;
   soplido.play();
 
   llama.style.animation = "apagar 0.5s forwards"; // forwards -> Ultimo frame (to)
+  velaOverlay.style.animation = "apagar 0.0s forwards";
 
   setTimeout(() => {
     cancion.currentTime = 0;

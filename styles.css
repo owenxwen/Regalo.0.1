@@ -170,6 +170,28 @@ body {
   box-shadow: inset 0 -10px #FF6F61;
 }
 
+.vela-overlay {
+  position: absolute;
+  width: 15px;
+  height: 70px;
+  background-color: white;
+  bottom: 140px;
+  left: calc(50% - 7.5px);
+  box-shadow: inset 0 -10px #FF6F61;
+  z-index: 10000;
+  clip-path: inset(0 0 50% 0);
+}
+
+.vela-overlay::before {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background-color: #FF6F61;
+  top: 10px;
+  box-shadow: 0 25px #FF6F61;
+}
+
 .vela:before {
   content: "";
   position: absolute;
