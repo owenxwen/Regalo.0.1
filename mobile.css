@@ -59,10 +59,30 @@
   left: 145px;
 }
 
-.vela-overlay {
-  transform: scale(0.75);
-  bottom: 94px;
-  left: 142px;
+/* Celular Vertical */
+@media only screen and (orientation: portrait) {
+  .vela-overlay {
+    transform: scale(0.75);
+    bottom: 77px;
+    left: 159px;
+  }
+}
+
+/* Celular Horizontal */
+@media only screen and (orientation: landscape) {
+  .vela-overlay {
+    transform: scale(0.75);
+    bottom: 99px;
+    left: 145px;
+  }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 768px) and (orientation: portrait) {
+  .vela-overlay {
+    transform: scale(0.75);
+    bottom: 99px;
+    left: 145px;
+  }
 }
 
 .llama {
