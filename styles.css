@@ -55,7 +55,7 @@ body {
   content: "";
   position: absolute;
   width: 100px;
-  height: 1000px;
+  height: 2500px;
   background-color: #4A4A4A;
   left: 195px;
   top: 18px;
@@ -66,7 +66,7 @@ body {
   position: absolute;
   background-color: rgba(240, 255, 240, 1);
   width: 95px;
-  height: 1000px;
+  height: 2500px;
   border-radius: 30px 30px 0 0;
   left: 136px;
   top: 20px;
@@ -667,12 +667,12 @@ body {
 }
 
 /* Posiciones individuales */
-.foto-1 { top: 100px; left: 50px; }
-.foto-2 { top: 100px; right: 50px; }
-.foto-3 { top: 350px; left: 80px; }
-.foto-4 { top: 350px; right: 80px; }
-.foto-5 { top: 600px; left: 50px; }
-.foto-6 { top: 600px; right: 50px; }
-.foto-7 { top: 350px; right: 80px; }
-.foto-8 { top: 600px; left: 50px; }
-.foto-9 { top: 600px; right: 50px; }
+.foto-1 { top: 200px; left: -50px; transform: rotate(7deg); }
+.foto-2 { top: 450px; right: -50px; transform: rotate(-6deg); }
+.foto-3 { top: 700px; left: -50px; transform: rotate(-5deg); }
+.foto-4 { top: 950px; right: -50px; transform: rotate(4deg); }
+.foto-5 { top: 1200px; left: -50px; transform: rotate(-2deg); }
+.foto-6 { top: 1450px; right: -50px; transform: rotate(-4deg); }
+.foto-7 { top: 1700px; left: -50px; transform: rotate(7deg); }
+.foto-8 { top: 1950px; right: -50px; transform: rotate(2deg); }
+.foto-9 { top: 2200px; left: -50px; transform: rotate(2deg); }
